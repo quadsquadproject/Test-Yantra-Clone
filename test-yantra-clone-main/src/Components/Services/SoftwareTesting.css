@@ -1,0 +1,71 @@
+.software-testing-container{
+    margin-top: 120px;
+}
+
+.background-img-testing{
+    background-image: url('./ServiceImages/SoftwareTestingTaas.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 300px;
+}
+
+.second_section{
+    padding-top: 6em;
+}
+
+.testing-section-second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.software-section-allbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    margin: 60px 0;
+    /* flex-wrap: wrap; */
+}
+
+.header-leverage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header-leverage h1{
+    font-size: 34px;
+    font-weight: bold;
+    color: #162d52;
+}
+
+.header-leverage p{
+    font-size: 20px;
+    color: #162d52;
+    font-weight: bolder;
+}
+
+.software-section-box{
+    height: 300px;
+    width: 400px;
+    /* border: 2px solid red; */
+    transition: all;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+    /* align-items: center; */
+    /* flex-direction: column; */
+    gap: 10px;
+}
+
+.software-section-box:hover{
+    transform: translateY(-10px);
+    border-bottom: 5px solid orange;
+}

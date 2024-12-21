@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 20px; */
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  transition: top 0.3s;
+  background-color: white;
+}
+
+.navbar-hidden {
+  top: -100;
+}
+
+.img_containers {
+  width: 100%;
+  margin: 10px;
+  display: flex;
+}
+
+img {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.list_btn {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-size: large;
+}
+
+.btn_get {
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: orange;
+  color: white;
+  font-weight: bolder;
+  font-size: large;
+  outline: none;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+  color: #162d52;
+}
+
+a:hover {
+  color: #f27f3d;
+}
+
+.home-active {
+  color: #f27f3d;
+}
+
+#ig{
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+  color: #162d52;
+}
+
+.service-active {
+  color: #f27f3d;
+}
+
+.partner-active {
+  color: #f27f3d;
+}
+.article-active {
+  color: #f27f3d;
+}
+.active-touch {
+  color: #f27f3d;
+}
+
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn_get {
+  cursor: pointer;
+}
+
+.dropdown-options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  min-width: 200px;
+}
+
+.dropdown-option {
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .img_containers {
+    flex-direction: column;
+    margin: 5px 0;
+  }
+
+  li {
+    margin-right: 20px;
+  }
+
+  .list_btn {
+    height: auto;
+    justify-content: center;
+  }
+
+  .btn_get {
+    width: 100%;
+    height: 40px;
+  }
+
+  .dropdown-options {
+    min-width: 100%;
+  }
+}
+
+.navbar-visible {
+  top: 0;
+}

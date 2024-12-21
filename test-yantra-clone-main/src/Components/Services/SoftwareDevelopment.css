@@ -1,0 +1,12 @@
+.software-development-container{
+    margin-top: 120px;
+}
+
+.development_background_img{
+    background-image: url('./ServiceImages/blog15.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 5px;
+    /* width: ; */
+    height: 300px;
+}

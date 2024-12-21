@@ -1,0 +1,34 @@
+.article-container {
+  margin-top: 110px;
+  /* border: 2px solid black; */
+  background-color: #f2f6f9;
+  /* width: 100%; */
+  
+}
+
+.background-img {
+  background-image: url("./Images/articles.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.article-banner {
+  /* border: 2px solid red; */
+  height: 250px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.article-details-content{
+    width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
+  color: white;
+}
